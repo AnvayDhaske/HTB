@@ -1,0 +1,9 @@
+Terminal:
+  >sudo su       //switching to root 
+    enter pwd for root
+  >visudo        //edit sudoers file saftly
+Nano file (/etc/sudoers.d) will open:
+  Add line - marwk  ALL=(ALL:ALL) ALL
+
+
+marwk now has sudo privileges...
